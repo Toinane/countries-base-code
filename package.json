@@ -1,0 +1,22 @@
+{
+  "name": "@toinane/countries-base-code",
+  "version": "1.0.0",
+  "description": "Get countries code from base's countries name",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toinane/countries-base-code.git"
+  },
+  "author": "Toinane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Toinane/countries-base-code/issues"
+  },
+  "homepage": "https://github.com/Toinane/countries-base-code#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}

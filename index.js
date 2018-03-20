@@ -1,0 +1,18 @@
+"use strict";
+
+let codes = require('./countries.json');
+
+module.exports = {
+    getAlpha3FromCountry: country => {
+        if (codes[country.toUpperCase()]) return codes[country.toUpperCase()];
+        else return country;
+    },
+    getCountryFromAlpha3: alpha => {
+        let country = alpha;
+        for(let result in codes) {
+            if (codes[result] === alpha.toUpperCase()) country = result.charAt(0) + result.slice(1).toLowerCase();
+        }
+
+        return country;
+    }
+}
