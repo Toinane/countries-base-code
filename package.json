@@ -1,5 +1,5 @@
 {
-  "name": "@toinane/countries-base-code",
+  "name": "countries-base-code",
   "version": "1.0.0",
   "description": "Get countries code from base's countries name",
   "main": "index.js",
