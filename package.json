@@ -1,6 +1,6 @@
 {
   "name": "countries-base-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get countries code from base's countries name",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Toinane/countries-base-code#readme",
   "devDependencies": {
-    "tape": "^4.9.0"
+    "tape": "^5.2.2"
   }
 }

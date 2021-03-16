@@ -3,10 +3,7 @@
 let codes = require('./countries.json');
 
 module.exports = {
-    getAlpha3FromCountry: country => {
-        if (codes[country.toUpperCase()]) return codes[country.toUpperCase()];
-        else return country;
-    },
+    getAlpha3FromCountry: country => codes[country.toUpperCase()] || country,
     getCountryFromAlpha3: alpha => {
         let country = alpha;
         for(let result in codes) {
